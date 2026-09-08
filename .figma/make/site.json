@@ -1,0 +1,10 @@
+{
+  "description": "An intuitive LMS platform designed for educators and learners to create, manage, and access online courses efficiently in one centralized hub.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
