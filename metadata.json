@@ -1,11 +1,6 @@
 {
-  "title": "Build LMS Website",
+  "name": "Build LMS Website",
   "description": "Learning Management System platform featuring student, trainer, parent, and admin portals for managing courses, assignments, attendance, grades, and payments.",
-  "robots": {
-    "index": false
-  },
-  "accessibility": {
-    "addBypassLinks": false,
-    "ignoreReducedMotion": false
-  }
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
