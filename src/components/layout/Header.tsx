@@ -29,7 +29,7 @@ const GREETINGS: Record<UserRole, string> = {
 };
 
 export default function Header() {
-  const { currentUser, currentPage, notifications, unreadCount, markAllRead, markNotificationRead, toggleSidebar } = useApp();
+  const { currentUser, currentPage, navigate, notifications, unreadCount, markAllRead, markNotificationRead, toggleSidebar } = useApp();
   const [notifOpen, setNotifOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
 
@@ -151,7 +151,7 @@ export default function Header() {
         className="w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm text-white flex-shrink-0 cursor-pointer"
         style={{ backgroundColor: '#007991' }}
         title={currentUser.name}
-        onClick={() => { /* navigate profile */ }}
+        onClick={() => navigate(`${currentUser.role}-profile` as any)}
       >
         {currentUser.name.split(' ').map(n => n[0]).join('').slice(0, 2).toUpperCase()}
       </div>

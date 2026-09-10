@@ -79,3 +79,7 @@ export const IconPaperclip = ico('M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.1
 export const IconVideo = ico('M23 7l-7 5 7 5V7zM1 5h15a2 2 0 012 2v10a2 2 0 01-2 2H1a2 2 0 01-2-2V7a2 2 0 012-2z');
 export const IconHome = ico('M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2zM9 22V12h6v10');
 export const IconActivity = ico('M22 12h-4l-3 9L9 3l-3 9H2');
+export const IconCheckCircle = ico('M22 11.08V12a10 10 0 11-5.93-9.14 M22 4L12 14.01l-3-3');
+export const IconLink = ico('M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71 M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71');
+export const IconLock = ico('M19 11H5a2 2 0 00-2 2v7a2 2 0 002 2h14a2 2 0 002-2v-7a2 2 0 00-2-2zM7 11V7a5 5 0 0110 0v4');
+export const IconSend = ico('M22 2L11 13 M22 2l-7 20-4-9-9-4 20-7z');
